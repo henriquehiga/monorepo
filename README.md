@@ -37,7 +37,7 @@ O monorepo está organizado nos seguintes pacotes:
     ```
 3.  Instale as dependências para todos os pacotes:
     ```bash
-    npm install
+    npm install # Na raíz do projeto, por conta do workspaces já instala as dependencias de todos os projetos
     ```
 
 ## Scripts Disponíveis

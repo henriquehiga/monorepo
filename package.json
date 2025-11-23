@@ -2,6 +2,7 @@
   "name": "monorepo",
   "version": "1.0.0",
   "private": true,
+  "description": "Este é um projeto de estudo para demonstrar uma aplicação full-stack usando uma arquitetura monorepo.",
   "scripts": {
     "build": "tsc -b",
     "clean": "tsc -b --clean",
