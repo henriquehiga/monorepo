@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs", 
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "composite": true,         /* Permite que este projeto seja referenciado */
+    "declaration": true,       /* Gera arquivos .d.ts (necessário para references) */
+    "declarationMap": true,    /* Permite "Go to Definition" funcionar entre pacotes */
+    "sourceMap": true
+  }
+}
