@@ -1,4 +1,4 @@
-import { ApiResponseModel } from '@monorepo/common';
+import { ApiResponseModel } from '@monorepo/common/src/models';
 import express from 'express';
 
 const app = express();

@@ -1,4 +1,4 @@
-import { ApiResponseModel } from '@monorepo/common';
+import { ApiResponseModel } from '@monorepo/common/src/models';
 
 const app = document.querySelector<HTMLDivElement>('#app')!;
 
