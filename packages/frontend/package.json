@@ -1,0 +1,16 @@
+{
+    "name": "@monorepo/frontend",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build"
+    },
+    "dependencies": {
+        "@monorepo/common": "*"
+    },
+    "devDependencies": {
+        "typescript": "^5.0.0",
+        "vite": "^5.0.0"
+    }
+}
