@@ -7,15 +7,14 @@
     "build": "tsc -b",
     "clean": "tsc -b --clean",
     "start:backend": "npm run start --workspace=@monorepo/backend",
-    "start:frontend": "npm run dev --workspace=@monorepo/frontend --force",
+    "start:frontend": "npm run start --workspace=@monorepo/frontend",
     "start:dev": "npm run clean && npm run build && concurrently \"npm run start:backend\" \"npm run start:frontend\""
   },
   "workspaces": [
     "packages/*"
   ],
   "devDependencies": {
-    "typescript": "^5.9.3",
-    "concurrently": "^9.2.1"
-  },
-  "dependencies": {}
+    "concurrently": "^9.2.1",
+    "typescript": "^5.9.3"
+  }
 }
